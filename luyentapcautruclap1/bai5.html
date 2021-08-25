@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sum =0;
+   let count=0;
+    let a=0;
+    let b=1;
+    let temp;
+    while (count<20){
+        temp =a;
+        a = a+b;
+        b =temp;
+        count++;
+        sum = sum+temp;
+    }
+    document.write( sum)
+</script>
+</body>
+</html>
