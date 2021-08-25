@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let tept;
+    let count = 0;
+    let dem = 0;
+    while (dem < 100) {
+        tept = a;
+        a = a + b;
+        b = tept;
+        dem++;
+        if (tept % 5 === 0) {
+            count++
+            if (count===6){
+                break;
+            }
+            document.write(tept+ " ");
+        }
+    }
+
+
+</script>
+
+</body>
+</html>
